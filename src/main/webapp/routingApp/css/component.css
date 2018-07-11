@@ -1,0 +1,66 @@
+.GMPage>section {
+    height: auto !important;
+}
+
+.GMRightContent>div:first-child {
+    width: 70%;
+}
+
+.GMRightContent>div {
+    width: 30%;
+}
+
+.GMRightContent .sapMPanelContent{
+    height: 100% !important;
+}
+
+.GMCustomeSelect {
+	width: 200px !important;
+	height: 2rem;
+}
+
+.GMCustomeSelect>label{
+	line-height: 2rem !important;
+}
+
+.GMCustomeSelect>span{
+	line-height: 2rem;
+}
+
+.GMCustomeInput {
+	width: 200px !important;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.GMCustomeInput input, .GMCustomeInput .sapMInputDivWrapper{
+    height: 2rem;
+    line-height: 2rem;
+}
+.GMSelectionItem {
+    border: none;
+}
+.GMSelectionItem>div{
+    display: flex;
+    align-items: center;
+}
+
+.GMActivePage{
+	background: #abe2ab;
+	border: 1px solid #abe2ab;
+}
+
+.GMActivePage .sapMFlexBox li[tabindex='0'] {
+    background-color: lightyellow !important;
+}
+.GMHidden{
+	display: none;
+}
+
+.GMStatus {
+    color: red;
+}
+.GMStatus.sapMLabelRequired {
+    color: green;
+}
+
